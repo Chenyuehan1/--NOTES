@@ -167,9 +167,9 @@ DNS 服务器上事先保存有前面这 3 种信息对应的记录数据， 如
 - 收发数据（通信阶段）
 - 断开管道并删除套接字（断开阶段）  
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20220312093056507.png" alt="image-20220312093056507" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/Chenyuehan1/HowNetworksWork-NOTES/main/img/image-20220312093056507.png" alt="image-20220312093056507" style="zoom:80%;" />
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20220312093519524.png" alt="image-20220312093519524" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/Chenyuehan1/HowNetworksWork-NOTES/main/img/image-20220312093519524.png" alt="image-20220312093519524" style="zoom:80%;" />
 
 注：
 
