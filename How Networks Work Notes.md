@@ -112,7 +112,7 @@ DNS： Domain Name System，域名服务系统。将服务器名称和 IP 地址
 - 如果要向DNS服务器发送询问请求，也要事先知道DNS服务器的IP地址。只不过这个 IP 地址是作为 TCP/IP 的一个设置项目事先设
   置好的，不需要再去查询了。Window7系统DNS服务器IP地址如图1.13所示。
 
-<img src="https://raw.githubusercontent.com/Chenyuehan1/HowNetworksWork-NOTES/main/img/image-20220311225202369.png" alt="image-20220311225202369" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/Chenyuehan1/HowNetworksWork-NOTES/main/img/image-20220312110513634.png" alt="image-20220312110513634" style="zoom:80%;" />
 
 <img src="https://raw.githubusercontent.com/Chenyuehan1/HowNetworksWork-NOTES/main/img/image-20220311230118617.png" alt="image-20220311230118617" style="zoom:80%;" />
 
