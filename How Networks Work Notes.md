@@ -114,7 +114,7 @@ DNS： Domain Name System，域名服务系统。将服务器名称和 IP 地址
 
 <img src="https://raw.githubusercontent.com/Chenyuehan1/HowNetworksWork-NOTES/main/img/image-20220311225202369.png" alt="image-20220311225202369" style="zoom:80%;" />
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20220311230118617.png" alt="image-20220311230118617" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/Chenyuehan1/HowNetworksWork-NOTES/main/img/image-20220311230118617.png" alt="image-20220311230118617" style="zoom:80%;" />
 
 DNS解析器生成的查询消息包含包含以下 3 种信息。
 
@@ -128,7 +128,7 @@ DNS解析器生成的查询消息包含包含以下 3 种信息。
 
 DNS 服务器上事先保存有前面这 3 种信息对应的记录数据， 如图 1.14所示。DNS 服务器就是根据这些记录查找符合查询请求的内容并对客户端作出响应的。
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20220311230619073.png" alt="image-20220311230619073" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/Chenyuehan1/HowNetworksWork-NOTES/main/img/image-20220311230619073.png" alt="image-20220311230619073" style="zoom:80%;" />
 
 注：
 
@@ -148,9 +148,9 @@ DNS 服务器上事先保存有前面这 3 种信息对应的记录数据， 如
 
 除此之外还需要完成另一项工作，那就是**将根域的 DNS 服务器信息保存在互联网中所有的 DNS 服务器**中。这样一来，任何 DNS 服务器就都可以找到并访问根域 DNS 服务器了。因此，客户端只要能够找到任意一台DNS 服务器，就可以通过它找到根域 DNS 服务器，然后再一路顺藤摸瓜找到位于下层的某台目标 DNS 服务器（ 图 1.15）。分配给根域 DNS 服务器的 IP 地址在全世界仅有 13 个 ，而且这些地址几乎不发生变化，因此将这些地址保存在所有的 DNS 服务器中也并不是一件难事。实际上，根域DNS 服务器的相关信息已经包含在DNS 服务器程序的配置文件中了，因此只要安装了 DNS 服务器程序，这些信息也就被自动配置好了。 
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20220312091110204.png" alt="image-20220312091110204" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/Chenyuehan1/HowNetworksWork-NOTES/main/img/image-20220312091110204.png" alt="image-20220312091110204" style="zoom:80%;" />
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20220312091316409.png" alt="image-20220312091316409" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/Chenyuehan1/HowNetworksWork-NOTES/main/img/image-20220312091316409.png" alt="image-20220312091316409" style="zoom:80%;" />
 
 注：当我们客户端事先配置好的最近的DNS服务器上没有我们要访问的域名的IP地址时，DNS服务器会将查询消息**转发给**根域DNS服务器。如果也没有查询到，那根域会**返回**管理下级域的服务器地址。
 
