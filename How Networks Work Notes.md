@@ -68,7 +68,7 @@ HTTP请求示例
 
 <img src="https://raw.githubusercontent.com/Chenyuehan1/HowNetworksWork-NOTES/main/img/image-20220311213204698.png" alt="image-20220311213204698" style="zoom:80%;" />
 
-<img src="../../../AppData/Roaming/Typora/typora-user-images/image-20220311213219308.png" alt="image-20220311213219308" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/Chenyuehan1/HowNetworksWork-NOTES/main/img/image-20220311213219308.png" alt="image-20220311213219308" style="zoom:80%;" />
 
 <img src="https://raw.githubusercontent.com/Chenyuehan1/HowNetworksWork-NOTES/main/img/image-20220311213229449.png" alt="image-20220311213229449" style="zoom:80%;" />
 
